@@ -1,0 +1,21 @@
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > .title {
+        font-size: 22px;
+        color: #555557;
+        font-weight: bold;
+    }
+    > .children {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        > span {
+            font-size: 16px;
+            color: #9B9999;
+        }
+    }
+}

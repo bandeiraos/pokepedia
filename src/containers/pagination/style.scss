@@ -1,0 +1,11 @@
+.pagination {
+    > button {
+        background-color: transparent;
+        text-decoration: underline;
+        margin: 5px;
+        border: 0;
+        &:not(:disabled) {
+            cursor: pointer;
+        }
+    }
+}

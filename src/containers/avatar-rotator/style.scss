@@ -1,0 +1,34 @@
+.avatar-rotator {
+    position: relative;
+
+    >div {
+        border-radius: 50%;
+        width: 135px;
+        padding: 10px 20px;
+
+        &.top-pokeball {
+            position: absolute;
+            height: 85px;
+            border: 6px solid #E83E34;
+            border-top-left-radius: 215px;
+            border-top-right-radius: 215px;
+            background-color: transparent;
+            z-index: 1;
+            border-bottom: 0;
+        }
+
+        &.main-wrapper {
+            height: 135px;
+            border: 6px solid #555557;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            >button {
+                position: absolute;
+                transform: translate(0, 55px);
+            }
+        }
+    }
+}

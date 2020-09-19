@@ -1,0 +1,29 @@
+.list {
+  list-style: none;
+
+  >li {
+    &:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+    }
+
+    >a {
+      display: flex;
+      color: #565658;
+      padding: 5px;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: ease all .2s;
+      justify-content: center;
+      background-color: #fff;
+
+      &:visited {
+        background-color: #eee;
+      }
+
+      &:hover {
+        background-color: #E83E34;
+        color: #fff;
+      }
+    }
+  }
+}

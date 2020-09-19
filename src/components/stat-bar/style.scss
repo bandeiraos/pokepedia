@@ -1,0 +1,32 @@
+.stat-bar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    >.title {
+        color: #9B9999;
+        font-size: 14px;
+    }
+
+    >.bar-wrapper {
+        width: 100%;
+        background-color: #ccc;
+        border-radius: 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 10px;
+
+        >.bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 10px;
+            background-color: #E83E34;
+            border-radius: 4px;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            padding: 5px;
+        }
+    }
+}
