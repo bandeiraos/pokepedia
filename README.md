@@ -1,11 +1,19 @@
-# pokepedia
+# Pokepedia
 
-A simple app where you can list and see pokemon's details.
+![poke](https://github.com/bandeiraos/pokepedia/assets/15945788/baceea07-7562-4621-89fa-7dfbd1f37487)
 
-API: https://pokeapi.co/
 
-Webpack, React, Hooks, ContextAPI, Sass;
+🐦 A simple app where you can list and see pokemon's details
 
--> clone
--> npm i
--> npm start
+🖥️ Built with Webpack, React, ContextAPI and Sass
+
+🔗 API: https://pokeapi.co/
+
+
+# Run
+
+👴 Node 12
+
+```
+npm start
+```
